@@ -13,7 +13,7 @@ fn main() {
     loop{
     
         let mut tebakan = String::new();
-        println!("Silangkah Masukan angka :");
+        println!("Silahkan Masukan angka :");
 
 
         io::stdin().read_line(&mut tebakan).expect("Gagal membaca line");
